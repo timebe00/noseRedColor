@@ -1,0 +1,13 @@
+﻿<Window x:Class="noseRedColor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rudolph Nose App" Height="450" Width="800">
+    <Grid>
+        <Image Source="{Binding DisplayImage}" Stretch="Uniform" Margin="10"/>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10">
+            <Button Content="Start Camera" Command="{Binding StartCameraCommand}" Margin="5"/>
+            <Button Content="Stop Camera" Command="{Binding StopCameraCommand}" Margin="5"/>
+            <Button Content="Load Image" Command="{Binding LoadImageCommand}" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
