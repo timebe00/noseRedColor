@@ -12,20 +12,12 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-# 먼저 Release는 무시에서 제외 (중간에 폴더 하나라도 존재하게 만들어야 함)
-!**/bin/
-!**/bin/Release/
-!**/bin/Release/**
-
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
 x64/
 x86/
 bld/
-[Bb]in/
 [Oo]bj/
 [Ll]og/
 
